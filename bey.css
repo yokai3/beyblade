@@ -1,0 +1,178 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    padding-left: 0px;
+    background-color: rgb(50, 50, 50);
+}
+
+.cont{
+    display: block;
+    margin: 0px;
+    padding: 1%;
+    border: 0px;
+    
+    
+    
+    
+    background-color:rgb(50, 50, 50);
+    width: 100% ;
+    height: 2000%;
+    align-content: center;
+    justify-content: space-between;
+    
+}
+#esp{
+    height: 400px;
+    width: 100%;
+    padding-left: 10%;
+    margin: 1px;
+}
+.img{
+    width: 350px;
+    height: 350px;
+    
+    
+}
+.img2{
+    width: 100%;
+    height: auto;
+    
+    
+}
+#ess{
+    height: 2px;
+}
+.sep{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    
+}
+
+.lado{
+    margin-right: 0px;
+    background-color:  rgb(30, 30, 30);
+    height: 100%;
+    width: 10%;
+    position:fixed;
+    display: flexbox;
+
+    justify-content: center;
+    
+    
+}
+.bn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color:rgb(50, 150, 50);
+    height: 32%;
+    font-language-override: unset;
+}
+.bn p a {
+    font-size: 200%;
+    text-align: center;
+    text-overflow: clip;
+    color:rgb(32, 28, 54);
+    font-weight:700;
+    text-decoration: none;
+
+    
+    
+}
+
+.p2{
+    overflow: auto;
+    text-overflow: clip;
+    word-break: break-all; 
+    line-break: break-all;
+    
+}
+@media (max-width: 1344px ){
+    #ess{
+        height: 320px;
+    }
+}
+
+@media (max-width: 991px ){
+    .bn p a {
+        overflow: auto;
+        text-overflow: clip;
+        word-break: normal; 
+        line-break: break-all;
+        font-size: 130%;
+        
+        
+        
+    }
+    #ess{
+        height: 2px;
+    }
+    #esp{
+        height: 50%;
+    }
+    .img{
+        width: 185px;
+        height: 185px;
+        margin-top: 25%;
+        margin-right: 20%;
+    }
+    .lado{
+        width: 20%;
+    }
+}
+@media (max-width:767px ){
+    .lado{
+        width: 20%;
+
+    }
+    #ess{
+        height: 2px;
+    }
+    #esp{
+        padding-left: 20%;
+    }
+}
+@media(max-height: 500px){
+    .bn{
+        height: 30%;
+
+    }
+    .bn p a{
+        font-size: 120%;
+    }
+}
+@media(max-height: 260px){
+    .bn{
+        height: 25%;
+
+    }
+    .bn p a{
+        font-size: 90%;
+    }
+}
+
+
+
+
+
+
+.T2{
+    color: aliceblue;
+    font-size: 400%;
+    text-align: center;
+}
+.T{
+    color: aliceblue;
+    font-weight:300%;
+    text-shadow: 20px;
+}
+.T a{
+    color: aliceblue;
+    font-weight:300%;
+    text-decoration: none;
+    text-shadow: 20px;
+}
